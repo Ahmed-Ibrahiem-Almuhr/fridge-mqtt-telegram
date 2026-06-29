@@ -1,0 +1,15 @@
+{
+  "name": "fridge-mqtt-telegram",
+  "version": "1.0.0",
+  "description": "MQTT Bridge from HiveMQ to Telegram",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mqtt": "^5.10.4",
+    "axios": "^1.8.1"
+  }
+}
